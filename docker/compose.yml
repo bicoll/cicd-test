@@ -1,0 +1,7 @@
+services:
+  cicd_test:
+    build: ./
+    image: cicd_test
+    container_name: cicd_test
+    ports:
+      - 8080
